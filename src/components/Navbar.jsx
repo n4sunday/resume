@@ -8,7 +8,7 @@ const Navbar = (props) => {
     return (
         <div className="navbar">
             <div>
-                <div className="icon-name">
+                <div className="icon-name" onClick={() => { scrollToRef(refProfile); setSelect('profile') }}>
                     NL
                 </div>
             </div>

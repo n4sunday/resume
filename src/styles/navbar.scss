@@ -8,6 +8,7 @@
     background-color: $main-hover;
     z-index: 100;
     .icon-name {
+        cursor: pointer;
         user-select: none;
         display: flex;
         align-items: center;
