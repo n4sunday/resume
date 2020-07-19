@@ -1,0 +1,36 @@
+.skills {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    section {
+        display: flex;
+    }
+}
+
+.skill-card {
+    margin: 15px;
+    padding: 20px;
+    height: 120px;
+    width: 350px;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.03) 0px 0.13rem 0.25rem;
+    background-color: $main-hover;
+    h3 {
+        margin: 0;
+    }
+    .skill-items {
+        display: flex;
+        margin-top: 10px;
+        flex-wrap: wrap;
+    }
+    .badge {
+        font-size: 14px;
+        padding: 5px 10px;
+        border-radius: 5px;
+        border: 2px solid $primary;
+        background-color: $primary;
+        margin: 0 10px 10px 0;
+    }
+}

@@ -1,12 +1,18 @@
-import React, { useRef } from 'react'
+import React, { useRef, useEffect } from 'react'
 import Navbar from './components/Navbar'
 import Profile from './components/Profile'
-import Educational from './components/Educational.jsx'
+import Educational from './components/Educational'
+import Skills from './components/Skills'
 import WorkExperience from './components/WorkExperience'
 
 function App() {
   const refProfile = useRef(null)
+  const refSkills = useRef(null)
   const refEducational = useRef(null)
+
+  useEffect(() => {
+    scrollToRef(refProfile)
+  }, [])
 
   const scrollToRef = (ref) => {
     window.scrollTo({ top: ref.current.offsetTop, behavior: "smooth" });
@@ -14,9 +20,15 @@ function App() {
 
   return (
     <div className="app">
-      <Navbar scrollToRef={scrollToRef} refProfile={refProfile} refEducational={refEducational} />
+      <Navbar
+        scrollToRef={scrollToRef}
+        refProfile={refProfile}
+        refEducational={refEducational}
+        refSkills={refSkills}
+      />
       <Profile refProfile={refProfile} />
       <Educational refEducational={refEducational} />
+      <Skills refSkills={refSkills} />
       <WorkExperience />
     </div>
   );
