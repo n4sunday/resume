@@ -1,16 +1,15 @@
 @import url("https://fonts.googleapis.com/css?family=Poppins+Sans");
 
-$main: #222222;
-$main-hover: #333333;
+$main: #110f1a;
+$main-hover: #1d1c23;
 $main-font: #ffffff;
-$primary: #067dec;
+$primary: #04b4e0;
 $nav-font: #909090;
 $nav-font-hover: #fff;
 $normal-font: #d5d5d5;
 
 .app {
     width: 100%;
-    height: 100vh;
     overflow-y: auto;
     background-color: $main;
     color: $main-font;
@@ -26,5 +25,7 @@ $normal-font: #d5d5d5;
 @import "./navbar.scss";
 @import "./profile.scss";
 @import "./workexperience.scss";
+@import "./educational.scss";
+
 @import "./common/contacticon.scss";
 
