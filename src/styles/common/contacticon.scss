@@ -1,0 +1,15 @@
+.contact-icon {
+    cursor: pointer;
+    margin: 5px 0;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    span {
+        margin-right: 10px;
+    }
+}
+.contact-icon:hover {
+    span {
+        color: $primary;
+    }
+}

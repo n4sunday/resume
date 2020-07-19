@@ -1,0 +1,38 @@
+.navbar {
+    position: fixed;
+    height: 55px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    .icon-name {
+        user-select: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 50%;
+        height: 45px;
+        width: 45px;
+        font-size: 20px;
+        font-weight: bold;
+        background-color: $primary;
+    }
+    .menu {
+        display: flex;
+    }
+    .list {
+        user-select: none;
+        cursor: pointer;
+        border-radius: 5px;
+        padding: 10px 20px;
+        margin: 0px 5px;
+        font-size: 18px;
+        font-weight: bold;
+        color: $nav-font;
+    }
+    .list:hover {
+        color: $nav-font-hover;
+        transition: linear 300ms;
+        background-color: $main-hover;
+    }
+}
