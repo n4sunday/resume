@@ -56,3 +56,52 @@
         }
     }
 }
+
+@media (max-width: 768px) {
+    .work-card {
+        margin: 5px;
+        .image {
+            width: 370px;
+            height: 170px;
+            img {
+                height: 170px;
+            }
+        }
+    }
+}
+
+@media (max-width: 425px) {
+    .work-card {
+        .image {
+            width: 340px;
+            height: 170px;
+            img {
+                height: 170px;
+            }
+        }
+    }
+}
+
+@media (max-width: 375px) {
+    .work-card {
+        .image {
+            width: 320px;
+            height: 160px;
+            img {
+                height: 160px;
+            }
+        }
+    }
+}
+
+@media (max-width: 320px) {
+    .work-card {
+        .image {
+            width: 200px;
+            height: 100px;
+            img {
+                height: 100px;
+            }
+        }
+    }
+}
