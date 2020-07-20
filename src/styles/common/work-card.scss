@@ -2,12 +2,57 @@
     margin: 10px;
     border-radius: 5px;
     overflow: hidden;
+    position: relative;
     .image {
         width: 400px;
         height: 200px;
         overflow: hidden;
         img {
             height: 200px;
+        }
+        .link {
+            display: none;
+        }
+    }
+    .image:hover {
+        .link {
+            transition: 300ms linear;
+            display: flex;
+        }
+    }
+    .link {
+        z-index: 5;
+        position: absolute;
+        width: 400px;
+        height: 200px;
+        .bg {
+            background-color: #000;
+            opacity: 0.5;
+            width: 400px;
+            height: 200px;
+            position: absolute;
+            cursor: cross;
+        }
+        .detail {
+            width: 400px;
+            background-color: rgba(0, 0, 0, 0.6);
+            position: absolute;
+            bottom: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            padding: 10px 0;
+            h3 {
+                margin: 0;
+            }
+            a {
+                color: $primary;
+            }
+        }
+        .tag {
+            position: absolute;
+            margin: 10px;
         }
     }
 }

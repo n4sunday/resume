@@ -15,6 +15,7 @@ const WorkExperience = ({ refWorkExperience }) => {
                         img={d2x}
                         name="T-D2X"
                         url="https://d2x.medizerva.com"
+                        dev="Front End Developer"
                     />
                 </div>
                 <div data-aos="zoom-in-up">
@@ -22,6 +23,7 @@ const WorkExperience = ({ refWorkExperience }) => {
                         img={plearnbook}
                         name="Plearnbook"
                         url="https://beta.plearnbook.com"
+                        dev="Front End Developer"
                     />
                 </div>
                 <div data-aos="zoom-in-up">
@@ -29,6 +31,7 @@ const WorkExperience = ({ refWorkExperience }) => {
                         img={nimble}
                         name="Nimble"
                         url="https://nimble.zonapplication.com"
+                        dev="Front End Developer"
                     />
                 </div>
                 <div data-aos="zoom-in-up">
@@ -36,6 +39,7 @@ const WorkExperience = ({ refWorkExperience }) => {
                         img={ple}
                         name="Phuket Local Explore"
                         url="https://dev.werapun.com"
+                        dev="Front End Developer"
                     />
                 </div>
             </div>
