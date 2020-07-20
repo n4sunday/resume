@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import SkillsCard from './common/SkillsCard'
 
 const Skills = ({ refSkills }) => {
-    const listFrontend = ["HTML", "CSS", "SCSS", "JavaScript", "React", "Nextjs", "Vue", "Nuxtjs",]
+    const listFrontend = ["React", "Nextjs", "Vue", "Nuxtjs","Semantic UI","Ant Design", "Bootstrap 4"]
     const listBacktend = ["Nodejs", "Express", "Nestjs"]
     const listDatabase = ["MySQL", "MongoDB", "Firebase"]
     const listDevOps = ["Docker"]

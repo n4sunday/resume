@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 
 const Navbar = (props) => {
-    const { scrollToRef, refProfile, refSkills, refEducational } = props
+    const { scrollToRef, refProfile, refSkills, refEducational, refWorkExperience } = props
 
     const [select, setSelect] = useState('profile')
 
@@ -13,10 +13,22 @@ const Navbar = (props) => {
                 </div>
             </div>
             <div className="menu">
-                <div className={`list ${select === 'profile' ? 'active' : ''}`} onClick={() => { scrollToRef(refProfile); setSelect('profile') }}>Profile</div>
-                <div className={`list ${select === 'educational' ? 'active' : ''}`} onClick={() => { scrollToRef(refEducational); setSelect('educational') }}>Educational</div>
-                <div className={`list ${select === 'skills' ? 'active' : ''}`} onClick={() => { scrollToRef(refSkills); setSelect('skills') }}>Skills</div>
-                <div className={`list ${select === 'work experience' ? 'active' : ''}`}>Work Experience</div>
+                <div
+                    className={`list ${select === 'profile' ? 'active' : ''}`}
+                    onClick={() => { scrollToRef(refProfile); setSelect('profile') }}
+                >Profile</div>
+                <div
+                    className={`list ${select === 'educational' ? 'active' : ''}`}
+                    onClick={() => { scrollToRef(refEducational); setSelect('educational') }}
+                >Educational</div>
+                <div
+                    className={`list ${select === 'skills' ? 'active' : ''}`}
+                    onClick={() => { scrollToRef(refSkills); setSelect('skills') }}
+                >Skills</div>
+                <div
+                    className={`list ${select === 'work experience' ? 'active' : ''}`}
+                    onClick={() => { scrollToRef(refWorkExperience); setSelect('work experience') }}
+                >Work Experience</div>
             </div>
         </div>
     )

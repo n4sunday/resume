@@ -9,6 +9,7 @@ function App() {
   const refProfile = useRef(null)
   const refSkills = useRef(null)
   const refEducational = useRef(null)
+  const refWorkExperience = useRef(null)
 
   useEffect(() => {
     scrollToRef(refProfile)
@@ -25,11 +26,12 @@ function App() {
         refProfile={refProfile}
         refEducational={refEducational}
         refSkills={refSkills}
+        refWorkExperience={refWorkExperience}
       />
       <Profile refProfile={refProfile} />
       <Educational refEducational={refEducational} />
       <Skills refSkills={refSkills} />
-      <WorkExperience />
+      <WorkExperience refWorkExperience={refWorkExperience} />
     </div>
   );
 }

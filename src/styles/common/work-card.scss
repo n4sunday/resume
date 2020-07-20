@@ -1,0 +1,13 @@
+.work-card {
+    margin: 10px;
+    border-radius: 5px;
+    overflow: hidden;
+    .image {
+        width: 400px;
+        height: 200px;
+        overflow: hidden;
+        img {
+            height: 200px;
+        }
+    }
+}
