@@ -23,6 +23,9 @@
     .menu {
         display: flex;
     }
+    .menu-mobile {
+        display: none;
+    }
     .list {
         user-select: none;
         cursor: pointer;
@@ -40,5 +43,45 @@
     }
     .active {
         color: $nav-font-hover;
+    }
+}
+
+@media (max-width: 768px) {
+    .navbar {
+        justify-content: space-between;
+        .icon-name {
+            margin: 0 10px;
+        }
+        .menu {
+            display: none;
+        }
+        .menu-mobile {
+            display: flex;
+            margin: 0 10px;
+            font-size: 24px;
+        }
+        .list-mobile {
+            background-color: $main-hover;
+            position: absolute;
+            right: 0;
+            top: 0;
+            margin-top: 55px;
+            animation: mymove 300ms;
+            -webkit-animation: mymove 300ms;
+            -moz-animation: mymove 300ms;
+            -o-animation: mymove 300ms;
+            margin-right: 0;
+        }
+        @keyframes mymove {
+            0% {
+                margin-right: -400px;
+            }
+            100% {
+                margin-right: 0;
+            }
+        }
+        .close {
+            display: none;
+        }
     }
 }
