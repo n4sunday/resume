@@ -1,0 +1,86 @@
+.education-card {
+    margin: 30px 10px;
+    padding: 20px;
+    background-color: $main-hover;
+    border-radius: 5px;
+    height: 100px;
+    width: 500px;
+    box-shadow: rgba(0, 0, 0, 0.03) 0px 0.13rem 0.25rem;
+    .college {
+        display: flex;
+        align-items: center;
+        h2 {
+            color: $primary;
+        }
+    }
+    .badge {
+        font-size: 14px;
+        padding: 5px 10px;
+        border-radius: 20px;
+        border: 2px solid $primary;
+        margin-right: 10px;
+    }
+    .item {
+        margin: 10px 0;
+    }
+    .location {
+        margin-top: 5px;
+        font-size: 12px;
+        color: $nav-font;
+    }
+}
+
+@media (max-width: 425px) {
+    .education-card {
+        width: 360px;
+        height: 110px;
+        .college {
+            h2 {
+                font-size: 18px;
+            }
+        }
+        .item {
+            font-size: 14px;
+        }
+    }
+}
+
+@media (max-width: 375px) {
+    .education-card {
+        width: 310px;
+        height: 130px;
+        .college {
+            flex-direction: column;
+            h2 {
+                margin-top: 10px;
+            }
+        }
+        .location {
+            text-align: center;
+        }
+        .item {
+            text-align: center;
+        }
+    }
+}
+
+@media (max-width: 320px) {
+    .education-card {
+        width: 260px;
+        height: 140px;
+        margin: 10px 10px;
+        .college {
+            flex-direction: column;
+            h2 {
+                margin-top: 10px;
+            }
+        }
+        .location {
+            text-align: center;
+        }
+        .item {
+            text-align: center;
+        }
+    }
+}
+

@@ -80,6 +80,13 @@
 
 @media (max-width: 425px) {
     .profile {
+        .left {
+            padding: 0;
+            img {
+                width: 200px;
+                height: 200px;
+            }
+        }
         .right {
             h1 {
                 font-size: 36px;
@@ -109,8 +116,14 @@
     }
 }
 
-@media (max-width: 375px) {
+@media (max-width: 320px) {
     .profile {
+        .left {
+            img {
+                width: 180px;
+                height: 180px; 
+            }
+        }
         .right {
             h1 {
                 font-size: 25px;
