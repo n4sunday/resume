@@ -41,19 +41,19 @@ const Navbar = (props) => {
 
                     <div
                         className={`list ${select === 'profile' ? 'active' : ''}`}
-                        onClick={() => { scrollToRef(refProfile); setSelect('profile') }}
+                        onClick={() => { scrollToRef(refProfile); setSelect('profile'); setMenu(false) }}
                     >Profile</div>
                     <div
                         className={`list ${select === 'educational' ? 'active' : ''}`}
-                        onClick={() => { scrollToRef(refEducational); setSelect('educational') }}
+                        onClick={() => { scrollToRef(refEducational); setSelect('educational'); setMenu(false) }}
                     >Educational</div>
                     <div
                         className={`list ${select === 'skills' ? 'active' : ''}`}
-                        onClick={() => { scrollToRef(refSkills); setSelect('skills') }}
+                        onClick={() => { scrollToRef(refSkills); setSelect('skills'); setMenu(false) }}
                     >Skills</div>
                     <div
                         className={`list ${select === 'work experience' ? 'active' : ''}`}
-                        onClick={() => { scrollToRef(refWorkExperience); setSelect('work experience') }}
+                        onClick={() => { scrollToRef(refWorkExperience); setSelect('work experience'); setMenu(false) }}
                     >Work Experience</div>
 
                 </div>

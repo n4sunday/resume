@@ -18,12 +18,15 @@ const Profile = ({ refProfile }) => {
                         <p>
                             I graduated Department of Computer Engineering and interested in web developer. I can work well with team members.  I spend my free time learning frameworks and new technology.
                         </p>
-                        <ContactIcon icon={<FontAwesomeIcon icon={faEnvelope} />}>
-                            s.nattapon.lk@gmail.com
-                        </ContactIcon>
-                        <ContactIcon icon={<FontAwesomeIcon icon={faPhone} />}>
-                            0995218459
-                        </ContactIcon>
+                        <div className="contact-set">
+                            <ContactIcon icon={<FontAwesomeIcon icon={faEnvelope} />}>
+                                s.nattapon.lk@gmail.com
+                            </ContactIcon>
+                            <ContactIcon icon={<FontAwesomeIcon icon={faPhone} />}>
+                                0995218459
+                            </ContactIcon>
+                        </div>
+
                     </div>
                     <div className="social">
                         <a href="https://www.facebook.com/sundaynattapon" target="_blank"><FontAwesomeIcon icon={['fab', 'facebook']} /></a>
