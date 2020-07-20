@@ -8,9 +8,9 @@ const WorkCard = (props) => {
             <div className="image">
                 <div className="link">
                     <div className="bg"></div>
-                    <div className="tag">
+                    {/* <div className="tag">
                         <Badge>{dev}</Badge>
-                    </div>
+                    </div> */}
                     <div className="detail">
                         <h3>{name}</h3>
                         <a href={url} target="_blank">{url}</a>
