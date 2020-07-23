@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/static/css/main.a0397a4c.chunk.css",
+    "main.js": "/static/js/main.ff104469.chunk.js",
+    "main.js.map": "/static/js/main.ff104469.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.3bbf3189.js",
+    "runtime-main.js.map": "/static/js/runtime-main.3bbf3189.js.map",
+    "static/js/2.51a086f4.chunk.js": "/static/js/2.51a086f4.chunk.js",
+    "static/js/2.51a086f4.chunk.js.map": "/static/js/2.51a086f4.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.6c13f07c96a7d81374540223cff0b54e.js": "/precache-manifest.6c13f07c96a7d81374540223cff0b54e.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.a0397a4c.chunk.css.map": "/static/css/main.a0397a4c.chunk.css.map",
+    "static/js/2.51a086f4.chunk.js.LICENSE.txt": "/static/js/2.51a086f4.chunk.js.LICENSE.txt",
+    "static/media/d2x.png": "/static/media/d2x.11acc5f0.png",
+    "static/media/nimble.png": "/static/media/nimble.69bf5851.png",
+    "static/media/phuket-local-explore.png": "/static/media/phuket-local-explore.ab1bd0e9.png",
+    "static/media/plearnbook.png": "/static/media/plearnbook.7a002b68.png",
+    "static/media/profile.jpg": "/static/media/profile.47fc248e.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3bbf3189.js",
+    "static/js/2.51a086f4.chunk.js",
+    "static/css/main.a0397a4c.chunk.css",
+    "static/js/main.ff104469.chunk.js"
+  ]
+}
