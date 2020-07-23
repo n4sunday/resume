@@ -12,7 +12,7 @@ const Educational = ({ refEducational }) => {
                         at="Prince of Songkla University"
                         year="2016-2020"
                         department="Department of Computer Engineering Faculty of Engineering"
-                        gpa="2.96"
+                        gpa="3.00"
                         location="Kathu, Phuket"
                     />
                 </div>
