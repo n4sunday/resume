@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faBars } from '@fortawesome/free-solid-svg-icons'
 
 const Navbar = (props) => {
-    const { scrollToRef, refProfile, refSkills, refEducational, refWorkExperience } = props
+    const { scrollToRef, refProfile, refSkills, refEducational, refWorkExperience, refParticipant } = props
 
     const [select, setSelect] = useState('profile')
     const [menu, setMenu] = useState(false)
@@ -33,6 +33,10 @@ const Navbar = (props) => {
                     className={`list ${select === 'work experience' ? 'active' : ''}`}
                     onClick={() => { scrollToRef(refWorkExperience); setSelect('work experience') }}
                 >Work Experience</div>
+                <div
+                    className={`list ${select === 'participante' ? 'active' : ''}`}
+                    onClick={() => { scrollToRef(refParticipant); setSelect('participant') }}
+                >Participant</div>
 
             </div>
             <div className="menu-mobile">
@@ -55,7 +59,10 @@ const Navbar = (props) => {
                         className={`list ${select === 'work experience' ? 'active' : ''}`}
                         onClick={() => { scrollToRef(refWorkExperience); setSelect('work experience'); setMenu(false) }}
                     >Work Experience</div>
-
+                    <div
+                        className={`list ${select === 'participante' ? 'active' : ''}`}
+                        onClick={() => { scrollToRef(refParticipant); setSelect('participant'); setMenu(false) }}
+                    >Participant</div>
                 </div>
             </div>
         </div>
